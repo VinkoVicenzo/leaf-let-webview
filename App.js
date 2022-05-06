@@ -1,8 +1,7 @@
 import React from 'react';
 import {WebView} from 'react-native-webview';
-import './src/main/assets/demo.html';
 
-const HTML_URL = 'http://192.168.43.227:5500/src/main/assets/demo.html';
+const HTML_URL = 'https://vinkovicenzo.github.io/rn-letlet-demo/';
 
 const App = () => {
   return (
