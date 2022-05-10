@@ -6,7 +6,7 @@ const HTML_URL = 'https://vinkovicenzo.github.io/rn-letlet-demo/';
 const App = () => {
   return (
     <WebView
-      originWhitelist={['*']}
+      originWhitelist={[HTML_URL]}
       javaScriptEnabled={true}
       domStorageEnabled={true}
       source={{
